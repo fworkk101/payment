@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html  dir="rtl">
+<head>
+      <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+
+<style>
+
+</style>
+</head>
+<body>
+  
+<div class="d_logo">
+<img src="img/company_logo.jpg" width="100%">
+</div>
+
+<div class="row">
+  <div class="col-75">
+    <div class="container">
+      <form action="/action_page.php">
+
+<div class="row">
+<div class="col-50">
+<h3>معلومات التسليم</h3>
+<label for="fname"> اسمك </label>
+<input type="text" id="fname" name="firstname" placeholder="ادخل اسمك الكامل">
+
+<label for="fname"> نوع الدومين المراد استخدامه </label>
+<select style="background-color:white" name="domin_type">
+<option value="" disabled selected>اختر نوع الدومين </option>
+<option value="com"> 
+.com </option>
+<option value="sa"> 
+.sa </option>
+<option value="net"> 
+ .net </option>
+<option value="org"> 
+.org  </option>
+</select>
+
+
+<label for="email">البريد الألكتروني</label>
+<input type="text" id="email" name="email" placeholder="ادخل بريدك الألكتروني المراد استخدامه">
+<label for="adr"> رقم الجوال للتواصل بك </label>
+<input type="text" id="adr" name="phone_num" placeholder="ادخل رقم هاتفك للتواصل معك ">
+</div>
+
+<div class="col-50">
+<h3>معلومات الدفع</h3>
+<label for="fname">نقبل</label>
+<div class="icon-container">
+<img src="img/pyment_logo.png" width="200px">
+</div>
+<label for="cname">اسمك على البطاقة</label>
+<input type="text" id="cname" name="cardname" placeholder="ادخل اسمك على البطاقة">
+<label for="ccnum">رقم البطاقة</label>
+<input type="text" id="ccnum" name="cardnumber" placeholder="ادخل رقم البطاقة">
+<div class="row">
+<div class="col-50">
+<label for="expyear">تاريخ انتهاء البطاقة</label>
+<input type="text" id="expyear" name="expyear" placeholder="MM/YY">
+</div>
+<div class="col-50">
+<label for="cvv">CVV</label>
+<input type="text" id="cvv" name="cvv" placeholder="رمز الأمن">
+</div>
+</div>
+</div>
+
+</div>
+<label>
+<input type="checkbox" checked="checked" name="sameadr">
+تذكرني
+</label>
+<span>سنقوم بتخزين بيانات هذه البطاقة بأمان لسرعة اجراء الدفع فيما بعد ولن يتم تسجيل رقم CCV الخاص بك  </span>
+<input type="submit" value="ارسال الطلب" class="btn">
+</form>
+</div>
+  </div>
+
+  <div class="col-25">
+    <div class="container">
+      <h4>سلة المشتريات
+        <span class="price" style="color:black">
+          <i class="fa fa-shopping-cart"></i>
+          <b>1</b>
+        </span>
+      </h4>
+      <p><a href="#"> .com</a> <span class="price">$25</span></p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
